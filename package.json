@@ -1,0 +1,43 @@
+{
+  "name": "ios-turncar-appium",
+  "version": "1.0.0",
+  "description": "Automation Framework for iOS Turn App",
+  "main": "index.js",
+  "scripts": {
+    "start.appium.server": "./node_modules/.bin/appium --port 4723",
+    "test": "./node_modules/.bin/wdio ./config/wdio.ios.app.conf.js",
+    "lint": "eslint --format stylish .",
+    "android.example": "./node_modules/.bin/wdio ./config/wdio.android.app.conf.js",
+    "ios.app": "./node_modules/.bin/wdio ./config/wdio.ios.app.conf.js"
+  },
+  "author": "Garett Petersen",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^1.13.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "gmail-tester": "^1.1.4",
+    "mocha": "^6.2.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "node-fetch": "^2.6.0",
+    "node-gyp": "^6.0.1",
+    "path": "^0.12.7",
+    "timezone": "^1.0.23",
+    "twilio": "^3.33.4",
+    "webdriverio": "^5.16.11"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.9.3",
+    "@wdio/appium-service": "^5.9.3",
+    "@wdio/cli": "^5.9.6",
+    "@wdio/local-runner": "^5.9.6",
+    "@wdio/mocha-framework": "^5.9.4",
+    "@wdio/sync": "^5.9.6",
+    "chromedriver": "^74.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-wdio": "^5.12.1",
+    "wdio-chromedriver-service": "^5.0.1"
+  }
+}

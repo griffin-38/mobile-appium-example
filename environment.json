@@ -1,0 +1,13 @@
+{
+    "env": {
+      "staging": {
+        "turnUrl": "https://staging.turncar.com",
+        "turnAwsUrl": "https://du7eonlkh5.execute-api.us-west-2.amazonaws.com/stage"
+      },
+      "prod": {
+        "turnAwsUrl": "https://fcui0pjwlc.execute-api.us-west-2.amazonaws.com/dev",
+        "turnUrl": "https://turncar.com"
+      }
+    }
+  }
+  
