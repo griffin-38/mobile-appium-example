@@ -1,6 +1,19 @@
-# sample appium project - mobile - turncar subscription 
+# iOS Mobile App Automation Testing
 
-Took inspiration from https://github.com/webdriverio/appium-boilerplate
+Test automation framework for iOS native mobile applications using Appium. This project provides a robust suite of automated tests to ensure quality and reliability of our iOS mobile applications.
+
+## Key Features
+- Built with Appium for iOS native app testing
+- Supports end-to-end automated test scenarios
+- Provides reusable test components and utilities
+- Includes detailed test reporting and logging
+- CI/CD integration ready
+
+## Prerequisites
+- Xcode
+- Node.js
+- Appium
+- iOS Simulator/Device
 
 ## Quick Setup Guide
 1. Install Visual Studio Code here: https://code.visualstudio.com/
